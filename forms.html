@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form method="post" action="process.php">
+    <br><label>username:</label><br>
+    <input type="text" placeholder="username" title="username must be 5+ character" maxlength="10">
+    <br><br>
+    <input type="password" placeholder="password" name="userpw">
+    <br><br>
+    <input type="text" value="training" readonly>
+    <br><br>
+    <input type="file">
+    <br><br>
+    <input type="hidden" value="training">
+    <br><br>
+    <input type="color" onchange="doc.bgcolor=this.value">
+    <br><br>
+    <input type="submit" value="sign in">
+    <br><br>
+    <input type="date">
+    <br><br>
+    <input type="time">
+    <br><br>
+    <input type="range" min="1" max="5">
+    <br><br>
+    <input type="number" min="1" max="5">
+    <fieldset>
+        <legend>Gender</legend>
+    <input type="radio" name="gender"> Male
+    <input type="radio" name="gender"> Female
+    <input type="checkbox"> CNIC
+    <input type="checkbox"> passport
+    </fieldset>
+    <select>
+        <option>html</option>
+        <option>css</option>
+        <option>js</option>
+    </select>
+    <input type="text" list="courses">
+    <datalist id="courses">
+        <option>html</option>
+        <option>css</option>
+        <option>js</option>
+    </datalist>
+    <textarea rows="10" cols="10"></textarea>
+    <input type="email">
+    <input type="reset">
+    
+    </form>
+</body>
+</html>
